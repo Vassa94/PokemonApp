@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app'
 import { NextUIProvider } from '@nextui-org/react';
 import '../styles/globals.css'
-import { darktheme } from './themes';
+import { darktheme } from '../themes';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
